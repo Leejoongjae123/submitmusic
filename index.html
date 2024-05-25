@@ -157,22 +157,22 @@
                       <div class="div-block">
                         <div data-hover="true" data-delay="0" data-w-id="f18a1fce-0ff6-7565-5f48-1e0735f5d8ed" class="width-100 w-dropdown">
                           <div class="dropdown-toggle w-dropdown-toggle">
-                            <div class="text-100 medium">MUSIC SOURCE</div>
+                            <div id="dropdown-text" class="text-100 medium">MUSIC SOURCE</div>
                             <div class="line-rounded-icon dropdown-icon"></div>
                           </div>
                           <nav class="dropdown-list w-dropdown-list">
                             <div class="card border-radius-6px">
-                              <a data-w-id="68b369b6-3be6-7f09-b964-343832956200" href="#" class="dropdown-link-wrapper w-inline-block">
-                                <div>Dropdown item #1</div>
+                              <a data-w-id="68b369b6-3be6-7f09-b964-343832956200" href="#" class="dropdown-link-wrapper w-inline-block" onclick="document.getElementById('dropdown-text').innerText='봄'; this.closest('.w-dropdown').classList.remove('w--open');">
+                                <div>봄</div>
                               </a>
-                              <a data-w-id="68b369b6-3be6-7f09-b964-343832956200" href="#" class="dropdown-link-wrapper w-inline-block">
-                                <div>Dropdown item #2</div>
+                              <a data-w-id="68b369b6-3be6-7f09-b964-343832956200" href="#" class="dropdown-link-wrapper w-inline-block" onclick="document.getElementById('dropdown-text').innerText='여름'; this.closest('.w-dropdown').classList.remove('w--open');">
+                                <div>여름</div>
                               </a>
-                              <a data-w-id="68b369b6-3be6-7f09-b964-343832956200" href="#" class="dropdown-link-wrapper w-inline-block">
-                                <div>Dropdown item #3</div>
+                              <a data-w-id="68b369b6-3be6-7f09-b964-343832956200" href="#" class="dropdown-link-wrapper w-inline-block" onclick="document.getElementById('dropdown-text').innerText='가을'; this.closest('.w-dropdown').classList.remove('w--open');">
+                                <div>가을</div>
                               </a>
-                              <a data-w-id="68b369b6-3be6-7f09-b964-343832956200" href="#" class="dropdown-link-wrapper w-inline-block">
-                                <div>Dropdown item #4</div>
+                              <a data-w-id="68b369b6-3be6-7f09-b964-343832956200" href="#" class="dropdown-link-wrapper w-inline-block" onclick="document.getElementById('dropdown-text').innerText='겨울'; this.closest('.w-dropdown').classList.remove('w--open');">
+                                <div>겨울</div>
                               </a>
                             </div>
                           </nav>
